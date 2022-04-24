@@ -41,6 +41,105 @@
         }
       },
       {
+        "HashCode": -325538416,
+        "Kind": "Components.Component",
+        "Name": "yendy_portfolio.Pages.Index",
+        "AssemblyName": "yendy-portfolio",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "yendy_portfolio.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -46117631,
+        "Kind": "Components.Component",
+        "Name": "yendy_portfolio.Pages.Index",
+        "AssemblyName": "yendy-portfolio",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "yendy_portfolio.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "yendy_portfolio.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1033608355,
+        "Kind": "Components.Component",
+        "Name": "yendy_portfolio.Pages.Contact",
+        "AssemblyName": "yendy-portfolio",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Contact"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "yendy_portfolio.Pages.Contact"
+        }
+      },
+      {
+        "HashCode": 2069603210,
+        "Kind": "Components.Component",
+        "Name": "yendy_portfolio.Pages.Contact",
+        "AssemblyName": "yendy-portfolio",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "yendy_portfolio.Pages.Contact"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "yendy_portfolio.Pages.Contact",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1967653601,
+        "Kind": "Components.Component",
+        "Name": "yendy_portfolio.Shared.NavMenu",
+        "AssemblyName": "yendy-portfolio",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "yendy_portfolio.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1204850701,
+        "Kind": "Components.Component",
+        "Name": "yendy_portfolio.Shared.NavMenu",
+        "AssemblyName": "yendy-portfolio",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "yendy_portfolio.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "yendy_portfolio.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -836104864,
         "Kind": "Components.Component",
         "Name": "yendy_portfolio.Shared.MainLayout",
@@ -133,72 +232,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "yendy_portfolio.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1967653601,
-        "Kind": "Components.Component",
-        "Name": "yendy_portfolio.Shared.NavMenu",
-        "AssemblyName": "yendy-portfolio",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "yendy_portfolio.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1204850701,
-        "Kind": "Components.Component",
-        "Name": "yendy_portfolio.Shared.NavMenu",
-        "AssemblyName": "yendy-portfolio",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "yendy_portfolio.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "yendy_portfolio.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -325538416,
-        "Kind": "Components.Component",
-        "Name": "yendy_portfolio.Pages.Index",
-        "AssemblyName": "yendy-portfolio",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "yendy_portfolio.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -46117631,
-        "Kind": "Components.Component",
-        "Name": "yendy_portfolio.Pages.Index",
-        "AssemblyName": "yendy-portfolio",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "yendy_portfolio.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "yendy_portfolio.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13522,6 +13555,11 @@
     {
       "FilePath": "/home/snib/cslang/yendy-portfolio/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/snib/cslang/yendy-portfolio/Pages/Contact.razor",
+      "TargetPath": "Pages\\Contact.razor",
       "FileKind": "component"
     },
     {

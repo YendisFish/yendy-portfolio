@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-c1dVVfosFaf5aiS3brr2amBi1Ue0kg6mqECzmCbGyfA=",
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
-      "yendy-portfolio.dll": "sha256-LK++ERHEgjrCAcp3UJ+y7K0wgwvnjojVMt\/ZvTVsASU="
+      "yendy-portfolio.dll": "sha256-z0Jsk1koVk3t4qEJQ+2Gqjx1nIHS990q1z9IdHNaysM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "yendy-portfolio.pdb": "sha256-68TpXJUDdoFeBcui6\/JhvYn8xisD6c+o1MqtKRCBg44="
+      "yendy-portfolio.pdb": "sha256-RvHsDNq34vzYE8QmcXSaTp\/9fEavcvx3IXWpAiGqb7s="
     },
     "runtime": {
       "dotnet.6.0.2.1vmgxte40q.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",
