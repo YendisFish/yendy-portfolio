@@ -1,0 +1,200 @@
+/* /Pages/Index.razor.rz.scp.css */
+.about-me[b-qs52bhbbak] {
+    size: 10px;
+    margin-right: 50%;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-color: rgba(97, 24, 24, 0.747);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-radius: 3px;
+}
+
+.abt-header[b-qs52bhbbak] {
+    padding-top: 5px;
+}
+
+.projects-header[b-qs52bhbbak] {
+    padding-top: 25px;
+}
+
+.project-object[b-qs52bhbbak] {
+    background-color: rgb(19, 19, 24);
+    border: 5px;
+    border-color: #201d2e;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right: 50%;
+}
+
+.project-name[b-qs52bhbbak] {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.project-desc[b-qs52bhbbak] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.project-img[b-qs52bhbbak] {
+    width: 250px;
+    padding-bottom: 5px;
+}
+
+.exp-text[b-qs52bhbbak] {
+    padding: 10px;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-eg490scte2] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #101117;
+    color: #FFFFFF;
+}
+
+main[b-eg490scte2] {
+    flex: 1;
+}
+
+
+.sidebar[b-eg490scte2] {
+    background-color: #0b0b0f;
+}
+
+.top-row[b-eg490scte2] {
+    background-color: #101117;
+    border-bottom: 1px solid #3a0647;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-eg490scte2]  a, .top-row[b-eg490scte2]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-eg490scte2]  a:hover, .top-row[b-eg490scte2]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-eg490scte2]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-eg490scte2] {
+        display: none;
+    }
+
+    .top-row.auth[b-eg490scte2] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-eg490scte2]  a, .top-row[b-eg490scte2]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-eg490scte2] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-eg490scte2] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-eg490scte2] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-eg490scte2]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-eg490scte2], article[b-eg490scte2] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-erg94jm0up] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-erg94jm0up] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-erg94jm0up] {
+    font-size: 1.1rem;
+}
+
+.oi[b-erg94jm0up] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-erg94jm0up] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-erg94jm0up] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-erg94jm0up] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-erg94jm0up]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-erg94jm0up]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-erg94jm0up]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-erg94jm0up] {
+        display: none;
+    }
+
+    .collapse[b-erg94jm0up] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+

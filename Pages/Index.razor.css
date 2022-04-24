@@ -1,0 +1,50 @@
+.about-me {
+    size: 10px;
+    margin-right: 50%;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-color: rgba(97, 24, 24, 0.747);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-radius: 3px;
+}
+
+.abt-header {
+    padding-top: 5px;
+}
+
+.projects-header {
+    padding-top: 25px;
+}
+
+.project-object {
+    background-color: rgb(19, 19, 24);
+    border: 5px;
+    border-color: #201d2e;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right: 50%;
+}
+
+.project-name {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.project-desc {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.project-img {
+    width: 250px;
+    padding-bottom: 5px;
+}
+
+.exp-text {
+    padding: 10px;
+}
